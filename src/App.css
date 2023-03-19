@@ -1,0 +1,31 @@
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+html , body{
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Scrollbar personalizado para WebKit */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+/* ::-webkit-scrollbar-track {
+  background-color: #F4F4F4;
+} */
+
+::-webkit-scrollbar-thumb {
+  background-color: #C9C9C9;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #A0A0A0;
+}
